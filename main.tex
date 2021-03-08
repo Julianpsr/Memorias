@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Memorías}
+            
+        \vspace{0.5cm}
+        \LARGE
+            
+        \vspace{1.5cm}
+            
+        \textbf{Julián David Taborda Ramírez}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Marzo de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Sección introductoria}\label{intro}
+En este documento podemos encontrar una descripción subjetiva y objetiva de las memorias de un computador, entorno a esta descripción se responderá algunas preguntas de esenciales para comprender el tema, ya que es un pilar fundamental para comprender los conceptos de este curso\cite{Augusto}. 
+\section{Memoria del computador} \label{contenido}
+\subsection{Definición de Memoria}
+
+La memoria de un computador como concepto general, es aquella que nos ofrece la información que está cargada en algún dispositivo de almacenamiento de la máquina. Existen diversos tipos de memoria que nos permiten retener o almacenar la información. Ahora bien, la memoria como concepto abstracto, nos permite conectar los dispositivos de entrada / salida con la CPU, que en conjunto realizan tareas fundamentales para el funcionamiento de la máquina y los requerimientos del usuario. 
+
+\subsection{¿Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.?}
+Memoria RAM: 
+
+Esta memoria de tipo volátil nos permite acceder a los datos de manera muy rápida, pero estos solo se almacenan de manera temporal. Aparte esta memoria sirve como conexión entre la CPU y el disco duro, puesto que, almacena las peticiones o instrucciones del procesador que posteriormente van al disco duro a los dispositivos de hardware conectados. 
+
+Disco duro o SSD: 
+Este tipo de memoria almacena los datos de manera magnética sin el riesgo de que los datos se pierdan luego de apagar la máquina. 
+
+Familias de memoria Cache: 
+
+Esta memoria guarda las solicitudes que hace el procesador, esta memoria es mucho más rápida y efectiva que la RAM, pero solo puede almacenar una pequeña cantidad de datos. Estas memorias están ubicadas en el unida central de procesamiento y efectúan una tarea de muy esencial que es el intercambio acelerado de datos. 
+
+VRAM o memoria de video:  
+
+Este tipo de memorias son especializas en el tratamiento de información que contiene imágenes, a su vez permite la transmisión y carga de las texturas que va utilizar en la unidad de procesamiento gráfico. 
+
+
+
+\subsection{Describa la manera como se gestiona la memoria en un computador.} 
+
+La memoria de un computador se gestiona siguiendo diversos pasos estructurados, al encender la maquina primero actúa la memoria de lectura conocida como ROM. Luego el procesador hace sus debidas peticiones al disco duro para cargar la información de arranque del sistema operativo. Esta información es cargada en la RAM, desde allí todos los datos de uso frecuente están a la espera de recibir las peticiones necesarias. Luego existen memorias que tiene unas tareas más específicas como proveer y guardar algunas de las instrucciones rápidas del procesador. 
+
+\subsection{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?}
+
+Existen propiedades físicas y digitales que nos permiten tener memorias muy veloces. Por ejemplo, la arquitectura de un HDD (Hard Disk Drive), en comparación con un SDD (Solid-State Drive), es totalmente diferente puesto que el primero utiliza las propiedades electromecánicas para guardar la información, mientras que el SSD posee circuitos integrados y celdas que, si bien es cierto que nos permite almacenar la información de manera mucho más rápida, estos dispositivos cuentan con una vida útil que depende mucho del uso. Estas propiedades físicas constituyen una gran importancia en cuanto a la velocidad, puesto que, pueden responder más peticiones en un intervalo de tiempo muy corto. Por ende, las características físicas y parte del control de software pueden hacer que una memoria sea mucha más efectiva o en este caso más rápida.    
+ 
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
